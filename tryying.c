@@ -7,10 +7,14 @@ int get_int(char *s)
 
 int main(void)
 {
-    int n = get_int("Enter %i stuff: ", 100);
+    int n = get_int("Enter %i stuff: ", 3);
+    printf("%i", n)
 }
 
-int get_int(char *s, ...)
+int get_int(char *s)
 {
-    printf()
+    int num;
+    printf("%s", s);
+    scanf("%i", &num);
+    return num
 }
