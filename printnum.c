@@ -9,6 +9,7 @@ int main(void)
 {
     // Getting input of n
     int a = get_int("Enter the stuff you wanna enter: ");
+    
     int b = get_int("Enter the stuff you wanna enter: ");
     
     // Printing out n
