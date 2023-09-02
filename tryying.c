@@ -7,7 +7,7 @@ int get_int(char *s);
 
 int main(void)
 {
-    int n = get_int("Enter the stuffs stuff: ");
+    int n = get_int("Enter the stuff you wanna enter: ");
     printf("%i\n", n);
 }
 
