@@ -12,8 +12,8 @@ int main(void)
     int b = get_int("Enter the stuff you wanna enter: ");
     
     // Printing out n
-    printf("%i\n", b);
     printf("%i\n", a);
+    printf("%i\n", b);
 }
 
 int get_int(char *s)
