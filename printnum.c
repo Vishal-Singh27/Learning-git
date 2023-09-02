@@ -8,10 +8,12 @@ int get_int(char *s);
 int main(void)
 {
     // Getting input of n
-    int b = get_int("Enter the second stuff you  enter: ");
+    int a = get_int("Enter the stuff you wanna enter: ");
+    int b = get_int("Enter the stuff you wanna enter: ");
     
     // Printing out n
     printf("%i\n", b);
+    printf("%i\n", a);
 }
 
 int get_int(char *s)
