@@ -3,12 +3,12 @@
 
 const int N = 5;
 
-int get_int(char *s)
+int get_int(char *s);
 
 int main(void)
 {
-    int n = get_int("Enter %i stuff: ", 3);
-    printf("%i", n)
+    int n = get_int("Enter the stuffs stuff: ");
+    printf("%i\n", n);
 }
 
 int get_int(char *s)
@@ -16,5 +16,5 @@ int get_int(char *s)
     int num;
     printf("%s", s);
     scanf("%i", &num);
-    return num
+    return num;
 }
