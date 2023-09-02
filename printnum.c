@@ -9,9 +9,10 @@ int main(void)
 {
     // Getting input of n
     int n = get_int("Enter the stuff you wanna enter: ");
-
+    int b = get_int("Enter the second stuff you wanna enter: ");
     // Printing out n
     printf("%i\n", n);
+    printf("%i\n", b);
 }
 
 int get_int(char *s)
